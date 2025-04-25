@@ -1,0 +1,349 @@
+/* Общие стили */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url('https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Шапка */
+.header {
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #2c3e50;
+}
+
+.user-login {
+    font-size: 18px;
+    font-weight: 600;
+    color: #3498db;
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Контейнер */
+.container {
+    flex: 1;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Форма авторизации */
+.auth-section {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Игровое поле */
+.game-section {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.game-status {
+    font-size: 20px;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 350px;
+}
+
+.cell {
+    aspect-ratio: 1;
+    background: #fff;
+    border: 3px solid #ecf0f1;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 700;
+    color: #2c3e50;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    min-width: 0; /* Убираем ограничения по минимальной ширине */
+    min-height: 100px; /* Задаём минимальную высоту для пустых ячеек */
+}
+
+.cell:hover {
+    background: #f5f6fa;
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.game-controls {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    width: 100%;
+    max-width: 350px;
+    margin: 20px auto 0;
+}
+
+.game-btn {
+    flex: 1;
+    padding: 14px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background: #3498db;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.game-btn:hover {
+    background: #2980b9;
+    transform: translateY(-2px);
+}
+
+.game-btn.logout {
+    background: #e74c3c;
+}
+
+.game-btn.logout:hover {
+    background: #c0392b;
+}
+
+/* Футер */
+.footer {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 20px;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-links a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .header-container {
+        padding: 10px 15px;
+    }
+
+    .header-title {
+        font-size: 22px;
+    }
+
+    .user-login {
+        font-size: 16px;
+    }
+
+    .container {
+        margin: 15px auto;
+        padding: 0 15px;
+    }
+
+    .auth-section, .game-section {
+        padding: 15px;
+    }
+
+    .board {
+        max-width: 90vw;
+    }
+
+    .cell {
+        font-size: 12vw;
+        min-height: 120px; /* Увеличиваем минимальную высоту для пустых ячеек */
+    }
+
+    .game-status {
+        font-size: 18px;
+    }
+
+    .game-controls {
+        max-width: 90vw;
+        margin: 15px auto 0;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-container {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .header-title {
+        font-size: 18px;
+    }
+
+    .user-login {
+        font-size: 14px;
+    }
+
+    .container {
+        margin: 10px auto;
+        padding: 0 10px;
+        min-height: calc(100vh - 120px);
+    }
+
+    .auth-section, .game-section {
+        padding: 10px;
+    }
+
+    .button-group, .game-controls {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .auth-btn, .game-btn {
+        width: 100%;
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    .board {
+        max-width: 95vw;
+        gap: 8px;
+    }
+
+    .cell {
+        font-size: 14vw;
+        border-width: 2px;
+        min-height: 130px; /* Ещё больше увеличиваем минимальную высоту */
+    }
+
+    .game-status {
+        font-size: 16px;
+    }
+
+    .game-controls {
+        max-width: 95vw;
+        margin: 10px auto 0;
+    }
+}
+
+/* Стили для кнопок и уведомлений */
+.input-field {
+    display: block;
+    width: 100%;
+    padding: 14px;
+    margin: 15px 0;
+    border: 2px solid #ecf0f1;
+    border-radius: 8px;
+    font-size: 16px;
+    background: #fff;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.auth-btn {
+    flex: 1;
+    padding: 14px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background: #3498db;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.notification {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    background: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.notification.active {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Стиль для неактивных ячеек */
+.cell.disabled {
+    background: #ecf0f1;
+    cursor: not-allowed;
+    pointer-events: none; /* Отключаем взаимодействие */
+    transform: none; /* Убираем эффект наведения */
+    box-shadow: none;
+}

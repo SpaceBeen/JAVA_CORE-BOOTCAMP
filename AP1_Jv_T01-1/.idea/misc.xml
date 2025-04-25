@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/src/exercise0" />
+    <file type="web" url="file://$PROJECT_DIR$/src/exercise1" />
+    <file type="web" url="file://$PROJECT_DIR$/src/exercise2" />
+    <file type="web" url="file://$PROJECT_DIR$/src/exercise3" />
+    <file type="web" url="file://$PROJECT_DIR$/src/exercise4" />
+    <file type="web" url="file://$PROJECT_DIR$/src/exercise5" />
+    <file type="web" url="file://$PROJECT_DIR$/src/exercise6" />
+    <file type="web" url="file://$PROJECT_DIR$/src/exercise7" />
+    <file type="web" url="file://$PROJECT_DIR$/src/exercise8" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="corretto-1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

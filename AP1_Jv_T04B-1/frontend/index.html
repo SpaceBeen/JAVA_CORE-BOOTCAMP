@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Крестики-Нолики</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="header">
+    <div class="header-container">
+        <h1 class="header-title">Крестики-Нолики</h1>
+        <div class="header-controls">
+            <div id="user-login" class="user-login"></div>
+            <div id="game-controls" class="game-controls" style="display: none;">
+                <button id="newGameBtn" class="header-btn">Новая игра</button>
+                <button id="availableGamesBtn" class="header-btn">Доступные игры</button>
+                <div class="join-game">
+                    <input type="text" id="gameIdInput" placeholder="ID игры" class="input-field small">
+                    <button id="joinGameBtn" class="header-btn">Подключиться</button>
+                </div>
+                <button id="userInfoBtn" class="header-btn">Мой профиль</button>
+                <button id="logoutBtn" class="header-btn logout">Выйти</button>
+            </div>
+        </div>
+        <button class="menu-toggle">☰</button>
+    </div>
+</header>
+
+<main class="container">
+    <!-- Форма авторизации -->
+    <section id="auth-section" class="auth-section">
+        <h2>Вход / Регистрация</h2>
+        <input type="text" id="login" placeholder="Логин" class="input-field">
+        <input type="password" id="password" placeholder="Пароль" class="input-field">
+        <div class="button-group">
+            <button id="loginBtn" class="auth-btn">Войти</button>
+            <button id="registerBtn" class="auth-btn register">Регистрация</button>
+        </div>
+        <p id="auth-status" class="status-text"></p>
+    </section>
+
+    <!-- Игровое поле -->
+    <section id="game-section" class="game-section" style="display: none;">
+        <div id="status" class="game-status">Нажмите "Новая игра" для начала</div>
+        <div id="player-info" class="player-info"></div>
+        <div class="board">
+            <div class="cell" data-x="0" data-y="0"></div>
+            <div class="cell" data-x="0" data-y="1"></div>
+            <div class="cell" data-x="0" data-y="2"></div>
+            <div class="cell" data-x="1" data-y="0"></div>
+            <div class="cell" data-x="1" data-y="1"></div>
+            <div class="cell" data-x="1" data-y="2"></div>
+            <div class="cell" data-x="2" data-y="0"></div>
+            <div class="cell" data-x="2" data-y="1"></div>
+            <div class="cell" data-x="2" data-y="2"></div>
+        </div>
+    </section>
+
+    <!-- Модальное окно для выбора режима -->
+    <div id="mode-modal" class="modal">
+        <div class="modal-content">
+            <h2>Выберите режим игры</h2>
+            <button id="humanModeBtn" class="modal-btn">Игра с человеком</button>
+            <button id="computerModeBtn" class="modal-btn">Игра с компьютером</button>
+            <button id="modeCloseBtn" class="modal-btn cancel">Отмена</button>
+        </div>
+    </div>
+
+    <!-- Модальное окно для доступных игр -->
+    <div id="available-games-modal" class="modal">
+        <div class="modal-content">
+            <h2>Доступные игры</h2>
+            <div id="available-games-list" class="games-list"></div>
+            <button id="availableGamesCloseBtn" class="modal-btn cancel">Закрыть</button>
+        </div>
+    </div>
+
+    <!-- Модальное окно для профиля -->
+    <div id="user-info-modal" class="modal">
+        <div class="modal-content">
+            <h2>Профиль пользователя</h2>
+            <div id="user-info-content" class="user-info-content"></div>
+            <button id="userInfoCloseBtn" class="modal-btn cancel">Закрыть</button>
+        </div>
+    </div>
+
+    <!-- Всплывающее уведомление -->
+    <div id="notification" class="notification">
+        <p id="notification-text"></p>
+        <button id="notification-close" class="notification-close">Закрыть</button>
+    </div>
+</main>
+
+<footer class="footer">
+    <div class="footer-container">
+        <p>© 2025 Крестики-Нолики. Все права защищены.</p>
+        <div class="footer-links">
+            <a href="#">О проекте</a>
+            <a href="#">Поддержка</a>
+            <a href="#">Правила</a>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
