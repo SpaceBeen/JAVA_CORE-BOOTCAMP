@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4bd044dc-29bc-4938-a224-c3a88be10f09" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/src/exercise0">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/src/exercise1">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/src/exercise2">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/src/exercise3">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/src/exercise4">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/src/exercise5">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/src/exercise6">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/src/exercise7">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/src/exercise8">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2nTN2ib9ofMoIJN6Ip3n3dmCBvd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.exercise2 [:Main.main()].executor": "Run",
+    "Gradle.exercise4 [:Main.main()].executor": "Run",
+    "Gradle.exercise6 [:Main.main()].executor": "Run",
+    "Gradle.exercise7 [:Main.main()].executor": "Run",
+    "Gradle.exercise8 [:Main.main()].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "develop",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/s21/Java/Java_core/AP1_Jv_T01-1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4bd044dc-29bc-4938-a224-c3a88be10f09" name="Changes" comment="" />
+      <created>1728992901637</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728992901637</updated>
+      <workItem from="1728992904612" duration="4323000" />
+      <workItem from="1729022145080" duration="3783000" />
+      <workItem from="1729031450921" duration="10000" />
+      <workItem from="1729031472198" duration="1465000" />
+      <workItem from="1729033068961" duration="1082000" />
+      <workItem from="1729034257742" duration="396000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
