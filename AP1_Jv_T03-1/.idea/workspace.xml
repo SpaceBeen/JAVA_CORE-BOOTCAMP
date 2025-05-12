@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0aed7d09-03e5-4135-834b-dc44eae13dfa" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/exericse05/.gradle/8.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/src/exericse05/.gradle/8.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exericse05/.gradle/8.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/src/exericse05/.gradle/8.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exericse05/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/src/exericse05/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exericse05/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/src/exericse05/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exericse05/build/classes/java/main/org/example/web/controller/GameController.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/exericse05/build/classes/java/main/org/example/web/controller/GameController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exericse05/build/classes/java/main/org/example/web/mapper/FieldMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exericse05/build/classes/java/main/org/example/web/mapper/GameMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/exericse05/build/classes/java/main/org/example/web/mapper/GameMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exericse05/build/classes/java/main/org/example/web/model/GameRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exericse05/build/classes/java/main/org/example/web/model/GameResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exericse05/src/main/java/org/example/web/controller/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exericse05/src/main/java/org/example/web/controller/GameController.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/exercise03">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/src/exercise01">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/src/exercise02">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/src/exercise03">
+      <ProjectState>
+        <option name="isInclusion" value="true" />
+      </ProjectState>
+    </projectState>
+    <projectState path="$PROJECT_DIR$/src/exercise04">
+      <ProjectState>
+        <option name="isInclusion" value="true" />
+      </ProjectState>
+    </projectState>
+    <projectState path="$PROJECT_DIR$/src/exercise05">
+      <ProjectState>
+        <option name="isInclusion" value="true" />
+      </ProjectState>
+    </projectState>
+    <projectState path="$PROJECT_DIR$/src/exericse04">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/src/exericse05">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/src/exercise02">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/src/exercise03">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/exercise03">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/src/exercise01">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2oiaG4O8jtBnKDCAVks6nR1vStT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build exercise05.executor": "Run",
+    "Gradle.Build exericse04.executor": "Run",
+    "Gradle.Build exericse05.executor": "Run",
+    "Gradle.Load Gradle Dependencies.executor": "Run",
+    "Gradle.exercise01 [:Program.main()].executor": "Run",
+    "Gradle.exercise05 [:Main.main()].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.Main.executor": "Run",
+    "Spring Boot.SpringdemoApplication (1).executor": "Run",
+    "Spring Boot.SpringdemoApplication.executor": "Run",
+    "git-widget-placeholder": "develop",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/s21/Java/Java_core/AP1_Jv_T04B-1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.28850573",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\s21\Java\Java_core\AP1_Jv_T03-1\src\exericse05\src\main" />
+      <recent name="D:\s21\Java\Java_core\AP1_Jv_T03-1\src\exericse05\src\main\resources" />
+      <recent name="D:\s21\Java\Java_core\AP1_Jv_T03-1\src\exericse04\src\main" />
+      <recent name="D:\s21\Java\Java_core\AP1_Jv_T03-1\src\exericse04\src\main\java" />
+      <recent name="D:\s21\Java\Java_core\AP1_Jv_T03-1\src\exercise03\src\main\java\org\example" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\s21\Java\Java_core\AP1_Jv_T03-1\src\exericse04\src\main\resources" />
+      <recent name="D:\s21\Java\Java_core\AP1_Jv_T03-1\src" />
+      <recent name="D:\s21\Java\Java_core\AP1_Jv_T03-1\src\exercise02\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringdemoApplication (1)">
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Program" />
+      <module name="exercise01" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="exercise05.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringdemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="exericse05.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.di.SpringdemoApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.di.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringdemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="exericse04.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.di.SpringdemoApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.di.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringdemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="exericse05.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.di.SpringdemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SpringdemoApplication (1)" />
+        <item itemvalue="Spring Boot.SpringdemoApplication" />
+        <item itemvalue="Application.Program" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0aed7d09-03e5-4135-834b-dc44eae13dfa" name="Changes" comment="" />
+      <created>1731354758956</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731354758956</updated>
+      <workItem from="1731354760501" duration="7944000" />
+      <workItem from="1731366410763" duration="511000" />
+      <workItem from="1733060989047" duration="38000" />
+      <workItem from="1736522429123" duration="5081000" />
+      <workItem from="1736621634634" duration="74000" />
+      <workItem from="1736622030526" duration="757000" />
+      <workItem from="1736708314004" duration="10294000" />
+      <workItem from="1736867382193" duration="13243000" />
+      <workItem from="1736886449293" duration="10895000" />
+      <workItem from="1736942658458" duration="26711000" />
+      <workItem from="1737059775548" duration="6224000" />
+      <workItem from="1737234225242" duration="860000" />
+      <workItem from="1737452101986" duration="912000" />
+      <workItem from="1739213852920" duration="17000" />
+      <workItem from="1739213902995" duration="434000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
